@@ -1,0 +1,180 @@
+.container {
+    background-image: url('bg/sekolah.jpg'); /* Ganti 'gambar-anda.jpg' dengan URL gambar Anda */
+    background-size: cover;
+    background-position: center;
+    height: 560px; /* Sesuaikan ketinggian sesuai kebutuhan */
+}
+
+.container2{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.judul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+.background-line {
+    height: 10px; /* Tinggi garis (sesuaikan sesuai kebutuhan Anda) */
+    background-color: #5FBDFF; /* Warna latar belakang */
+}
+
+.beranda-main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 10px 30px;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.beranda-main2 {
+    margin-right: 20px;
+}
+
+.kepsekfoto {
+    border-radius: 10%; /* Membuat foto bulat */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan pada foto */
+}
+
+.kepsek-text {
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.beranda-main3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.berandaid {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.pberanda {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+
+
+
+.jurusan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: justify;
+}
+
+/* RPL JURUSAN!!!*/
+.rpl {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+  }
+
+.gambarjurusan {
+    /* Style untuk gambar */
+    margin-right: 40px; /* Jarak antara gambar dengan teks */
+    height: auto;
+}
+
+.rplh1 {
+    font-size: 40px; /* Atur ukuran font sesuai kebutuhan */
+    margin-bottom: 10px; /* Jarak antara judul dengan paragraf */
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: none; /* Menghilangkan bayangan pada teks */
+    text-decoration: none;
+}
+
+.rpl p {
+    /* Style untuk paragraf */
+    margin-bottom: 10px; /* Jarak antara paragraf */
+    font-size: larger;
+}
+
+
+/* TKJ JURUSAN!!!*/
+.tkj {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+
+}
+
+.gambartkj {
+    /* Style untuk gambar */
+    margin-left: 40px; /* Jarak antara gambar dengan teks */
+    height: auto;
+    order: 2; /* Menentukan urutan tampilan (gambar di belakang) */
+}
+
+.tkj-info {
+    /* Style untuk container judul dan paragraf */
+    order: 1; /* Menentukan urutan tampilan (judul dan paragraf di depan) */
+}
+
+.tkjh1 {
+    font-size: 40px; /* Atur ukuran font sesuai kebutuhan */
+    margin-bottom: 10px; /* Jarak antara judul dengan paragraf */
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: none; /* Menghilangkan bayangan pada teks */
+    text-decoration: none;
+}
+
+.tkj p {
+    /* Style untuk paragraf */
+    margin-bottom: 10px; /* Jarak antara paragraf */
+    font-size: larger;
+}
+
+
+
+
+/* BC JURUSAN!!!*/
+.bc {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+  }
+
+.gambarbc {
+    /* Style untuk gambar */
+    margin-right: 40px; /* Jarak antara gambar dengan teks */
+    height: auto;
+}
+
+.bch1 {
+    font-size: 40px; /* Atur ukuran font sesuai kebutuhan */
+    margin-bottom: 10px; /* Jarak antara judul dengan paragraf */
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: none; /* Menghilangkan bayangan pada teks */
+    text-decoration: none;
+}
+
+.bc p {
+    /* Style untuk paragraf */
+    margin-bottom: 10px; /* Jarak antara paragraf */
+    font-size: larger;
+}
+
+.batasjurusan{
+    height: 10px; /* Tinggi garis (sesuaikan sesuai kebutuhan Anda) */
+    background-color: rgb(53, 134, 189); /* Warna latar belakang */
+}
+
+.jurusanh1{
+    color: #fff;
+    background-color:#39A7FF;
+    text-align: center;
+}
